@@ -1,0 +1,92 @@
+
+/* Main page */
+.app {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+  color: #1f2937;
+  margin-bottom: 25px;
+}
+
+/* Input and button container */
+.task-input {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 25px;
+}
+
+/* Input box */
+.task-input input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Add button */
+.task-input button {
+  padding: 12px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Task list */
+ul {
+  width: 100%;
+  max-width: 460px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  list-style-position: inside;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Individual task */
+li {
+  padding: 10px 0;
+  color: #374151;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+li span {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+
+li button {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+li .completed {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
